@@ -1,0 +1,11 @@
+#q4
+#input radius calculate area
+
+from math import pi
+r = float(input('Enter the radius of the circle : '))
+area = pi*r*r
+print('The area of the circle with the radius of '+str(r)+' is: '+ str(area))
+
+#output
+Enter the radius of the circle : 3
+The area of the circle with the radius of 3.0 is: 28.274333882308138

@@ -1,0 +1,16 @@
+#q5
+
+A tuple is container which holds a series of comma separated values (items or elements) between parentheses such as an (x, y) co-ordinate.
+Tuples are like lists, except they are immutable (i.e. you cannot change its content once created) and can hold mix data types.
+
+val = input('Enter some numbers separated by coma\n')
+list = val.split(',')
+tupleList = tuple(list)
+print('Tuple : ', tupleList)
+print('List : ', list)
+
+#output
+Enter some numbers separated by coma
+5,6,7,8
+Tuple :  ('5', '6', '7', '8')
+List :  ['5', '6', '7', '8']
